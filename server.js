@@ -13,7 +13,8 @@ const PORT = process.env.PORT || 3000
 
 
 
-
+// assets
+app.use(express.static('public'))
 app.get('/',(req,res)=>{
     res.render('home')
 })

@@ -22,3 +22,7 @@ nav li a {
 nav li a:hover {
   color: #eb5316;
 }
+
+.hero-vegi {
+  height: 350px;
+}

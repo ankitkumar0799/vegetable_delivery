@@ -1,1 +1,24 @@
+@import './variables';
 
+body {
+    font-family: 'Lato','sans-serif';
+    -webkit-font-smoothing: antialiased;
+    color: $dark;
+}
+.logo_main{
+    height: 60px;
+    width: 60px;
+
+}
+nav li:last-child a{
+    background-color: $primary;
+    &:hover{
+        background-color: $primary-hover;
+    }
+}
+nav li a{
+    transition: $smooth;
+    &:hover{
+        color: $primary;
+    }
+}

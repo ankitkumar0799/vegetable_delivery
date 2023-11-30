@@ -1,1 +1,24 @@
+body {
+  font-family: "Lato", "sans-serif";
+  -webkit-font-smoothing: antialiased;
+  color: #232323;
+}
 
+.logo_main {
+  height: 60px;
+  width: 60px;
+}
+
+nav li:last-child a {
+  background-color: #eb5316;
+}
+nav li:last-child a:hover {
+  background-color: #6d270b;
+}
+
+nav li a {
+  transition: all 0.3s ease-in-out;
+}
+nav li a:hover {
+  color: #eb5316;
+}

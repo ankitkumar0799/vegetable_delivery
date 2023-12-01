@@ -2,6 +2,7 @@ body {
   font-family: "Lato", "sans-serif";
   -webkit-font-smoothing: antialiased;
   color: #232323;
+  height: 4000px;
 }
 
 .logo_main {
@@ -25,4 +26,19 @@ nav li a:hover {
 
 .hero-vegi {
   height: 350px;
+}
+
+.size {
+  background-color: #F8f8f8;
+}
+
+.add-to-cart {
+  color: #eb5316;
+  border: 2px solid #eb5316;
+}
+.add-to-cart:hover {
+  background: #eb5316;
+  border-color: #fff;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
 }

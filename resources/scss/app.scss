@@ -39,4 +39,16 @@ nav li a{
         transition: $smooth
 
     }
+
+}
+
+.btn-primary {
+    background: $primary;
+    transition: $smooth;
+   
+    &:hover{
+        
+        background-color: $primary-hover;
+        
+    }
 }

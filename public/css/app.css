@@ -2,7 +2,6 @@ body {
   font-family: "Lato", "sans-serif";
   -webkit-font-smoothing: antialiased;
   color: #232323;
-  height: 4000px;
 }
 
 .logo_main {
@@ -49,4 +48,27 @@ nav li a:hover {
 }
 .btn-primary:hover {
   background-color: #6d270b;
+}
+
+section.cart {
+  background-color: #F8f8f8;
+}
+
+.amount {
+  color: #eb5316;
+}
+
+.login {
+  background-color: #F8f8f8;
+  min-height: calc(100vh - 70px);
+  scroll-behavior: smooth;
+}
+.login a {
+  color: #eb5316;
+}
+.login a:hover {
+  color: #6d270b;
+}
+.login p {
+  color: #eb5316;
 }
